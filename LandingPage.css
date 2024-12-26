@@ -1,0 +1,108 @@
+*{
+margin:0; padding: 0; box-sizing: border-box;
+}
+#PageLayout{
+height: 100vh;
+width: 100vw;
+background : url( pexels-muffin-2468773.jpg);
+bakground-size: cover;
+}
+a{
+text-decoration: none;
+color: #cccc
+}
+.Tab:hover{
+border: 1px solid white;
+}
+.Logo{
+color: white;
+margin-right: 120px;
+marging-left: 40px
+font-weight : 900;
+font-size: 25px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+#Header{
+margin-left: 70px;
+position:fixed;
+height: 60px;
+width: 100%;
+display: flex;
+
+}
+#TabHead{
+width: 1160px;
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.Tab{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 60px;
+border: 1px transparent;
+}
+.Btn{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+Button{
+padding: 7px;
+background-color: red;
+color: white;
+border-radius:10px;
+border-collapse: collapse;
+}
+#data{
+position: absolute;
+top:45%;
+left:35%;
+transform: (-50% , -50%);
+}
+#enjoy{
+position: relative;
+top:10%;
+left:45%;
+transform: (-30% , -50%);
+color:white;
+font-size:24px;
+font-weight: 100;
+}
+.p2{
+font-weight: 900;
+color:white;
+font-size: 50px;
+position: relative;
+top:10%;
+left:2%;
+transform: (-30% , -25%);
+}
+.p1{
+font-weight: 900;
+color:white;
+font-size: 50px;
+position: relative;
+top:10%;
+left:35%;
+transform: (-30% , -25%);
+}
+#LastLine{
+height: 25px;
+width:200px;
+display: flex;
+justify-content: center;
+background-color: red;
+color: white;
+font-size: 18px;
+position: relative;
+top:10%;
+left:30%;
+transform: (-30% , -25%);
+}
